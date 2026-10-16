@@ -40,4 +40,5 @@ async def post_tarefa(titulo: str, descricao: str):
 
 @APP.get("/")
 async def index():
-    return {"mensagem": "Olá, mundo!"}
+    return {"mensagem": "Olá, mundo! "}
+
